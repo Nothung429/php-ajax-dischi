@@ -1,8 +1,46 @@
+/*------ general ------*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-img {
-    max-height: 100px;
+body {
+    background-color: #1e2d3b;
+    color: #fff;
+}
+/*------ header ------*/
+header {
+    background-color: #2e3a46;
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    height: 70px;
+    width: 80px;
+}
+.header__logo img {
+    max-height: 60px;
+}
+/*------ main ------*/
+.albums {
+    gap: 20px;
+}
+.album {
+    background-color: #2e3a46;
+    text-align: center;
+    list-style: none;
+}
+.album img {
+    max-width: 100%;
+}
+.album h3 {
+    color: #fff;
+    font-size: 22px;
+}
+.album p, .album h5 {
+    font-size: 18px;
+    color: lightgreen;
+    margin: 0;
 }
