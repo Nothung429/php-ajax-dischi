@@ -1,7 +1,7 @@
 <?php
     $database = [
         [
-            "poster" =>"https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg",
+            "poster" =>"https://i.discogs.com/oGtY0vjGWJj-NH67z4mmw-8tN8MdtP8bWEWRJMCN9N0/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzOTc4/NzYtMTIxNjI0NzM3/Ny5qcGVn.jpeg",
             "title" =>"New Jersey",
             "author" =>"Bon Jovi",
             "genre" =>"Rock",
@@ -71,4 +71,9 @@
             "year" =>"1987"
         ]
     ];
+    header("Content-type: application/json");
+
+    $response = $database;
+
+    echo json_encode($response);
 ?>
