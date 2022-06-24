@@ -71,9 +71,4 @@
             "year" =>"1987"
         ]
     ];
-    header("Content-type: application/json");
-
-    $response = $database;
-
-    echo json_encode($response);
 ?>
